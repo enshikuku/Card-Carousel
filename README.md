@@ -58,10 +58,6 @@ Feel free to customize the content and styles to fit your needs. You can modify 
 
 Your changes will be reviewed, and once approved, they will be merged into the main branch.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 **Note:** Replace `your-username` in the clone URL with your GitHub username.
