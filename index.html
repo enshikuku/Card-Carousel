@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Card Carousel</title>
+        <style>
+            body {
+                background-color: #C9B8FF;
+                font-family: 'Open Sans', sans-serif;
+                margin: 0; /* Remove default margin */
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                width: 600px;
+                margin: 200px auto;
+            }
+
+            .card {
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                height: 260px;
+                width: 200px;
+                background-color: #C9B8FF;
+                border-radius: 10px;
+                box-shadow: -1rem 0 3rem #0003;
+                transition: 0.4s ease-out;
+                position: relative;
+                left: 0;
+                margin-left: -50px;
+            }
+
+            .card img {
+                width: 100%;
+                object-fit: contain;
+                object-position: top;
+            }
+
+            .card:hover {
+                transform: translateY(-20px);
+            }
+
+            .card:hover~.card {
+                position: relative;
+                left: 50px;
+            }
+
+            .title {
+                color: #595959;
+                font-weight: 500;
+                position: absolute;
+                left: 20px;
+                bottom: 75px;
+            }
+
+            .card p {
+                color: #666;
+                font-weight: 500;
+                font-size: 13px;
+                position: absolute;
+                width: 150px;
+                left: 20px;
+                bottom: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="car">
+                <h3 class="title">Shelby</h3>
+                <p>A high-performance sports car known for its speed and sleek design.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="car">
+                <h3 class="title">Ferrari 458 Italia</h3>
+                <p>An Italian sports car with a powerful engine and stunning design.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="car">
+                <h3 class="title">Ford Mustang GT</h3>
+                <p>A classic American muscle car known for its iconic design and powerful performance.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="car">
+                <h3 class="title">BMW M3</h3>
+                <p>A German sports sedan that combines luxury with high-performance driving experience.</p>
+            </div>
+        </div>
+    </body>
+
+</html>
