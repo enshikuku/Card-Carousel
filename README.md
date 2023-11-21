@@ -6,6 +6,10 @@ This repository contains a simple HTML document implementing a stylish card caro
 
 ![Card Carousel Preview](https://res.cloudinary.com/dlkqilyi0/image/upload/v1700560953/main_gzqqhn.png)
 
+## Live host
+
+![Card-Carousel](https://res.cloudinary.com)
+
 ## Getting Started
 
 1. Clone the repository:
